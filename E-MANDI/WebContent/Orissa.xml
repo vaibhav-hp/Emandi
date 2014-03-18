@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ascii"?>
+<Orissa>
+	
+    <District><name> Khurda </name> </District> 
+    <District><name> Navaragpur</name> </District> 
+    <District><name> Navapada</name></District> 
+    <District><name> Gajapati</name></District> 
+    <District><name> Boudh</name></District> 
+    <District><name> Bhadrak</name></District> 
+    <District><name> Ganjam</name></District> 
+    <District><name> Dhenkanal</name></District> 
+    <District> <name> Angul</name></District> 
+    <District><name> Puri</name> </District> 
+    <District> <name>Cuttak</name></District> 
+   <District> <name>Sambalpur</name></District> 
+    <District><name> Kalhandi</name></District> 
+    <District><name> Koraput</name></District> 
+    <District><name> Phulbani</name></District> 
+    <District><name> Balangir</name></District> 
+    <District><name> Bargah</name></District> 
+    <District><name> Deogarh</name></District> 
+    <District><name> Jagatsinghpur</name></District> 
+    <District><name> Jajpur</name></District> 
+    <District><name> Jharsuguda</name></District> 
+    <District><name> Kendrapara</name></District> 
+    <District><name> Malkangiri</name></District> 
+    <District><name> Nayagarh</name></District> 
+    <District><name> Rayagada</name></District> 
+    <District><name> Sonepur</name></District> 
+    <District><name> Balasore</name></District> 
+    <District><name> Mayurbhanj</name></District> 
+    <District><name> Keonjhar</name></District> 
+   <District> <name> Sundergarh</name></District> 
+
+</Orissa>

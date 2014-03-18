@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ascii"?>
+<Assam>
+
+
+   <District><name> Karimganj</name></District>
+    <District><name>Darrang</name></District>
+   <District><name> Dibrugarh</name></District>
+   <District><name> Morigaon</name></District>
+   <District><name> Tinsukia</name></District>
+   <District><name> Bongaigaon</name></District>
+  <District>  <name>Nalbari</name></District>
+  <District> <name> Kokrajhar</name></District>
+   <District><name> Kamrup</name></District>
+    <District><name>Karbi-Anglong</name></District>
+    <District><name>Nagaon</name></District>
+   <District> <name>N.C.Hills</name></District>
+    <District><name>Dhemaji</name></District>
+    <District><name>Hailakandi</name></District>
+    <District><name>Lakhimpur</name></District>
+    <District><name>Sonitpur</name></District>
+   <District> <name>Dhubri</name></District>
+   <District> <name>Goalpara</name></District>
+   <District> <name>Barpeta</name></District>
+    <District><name>Golaghat</name></District>
+   <District> <name>Jorhat</name></District>
+   <District> <name>Sibsagar</name></District>
+   <District> <name>Cachar</name></District>
+
+
+
+</Assam>

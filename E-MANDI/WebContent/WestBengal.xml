@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ascii"?>
+<WestBengal>
+
+    <District><name>Howrah</name></District>
+    <District><name>Darjeeling</name></District>
+    <District><name>Medinipur</name></District>
+    <District><name>Murshidabad</name></District>
+    <District> <name>Coochbehar</name></District>
+    <District><name>Malda</name></District>
+    <District> <name>Birbhum</name></District>
+    <District><name>North 24 Parganas</name></District>
+    <District> <name>South 24 Parganas</name></District>
+    <District><name>Bankura</name></District>
+    <District><name>Bardhaman</name></District>
+    <District><name>Jalpaiguri</name></District>
+    <District><name>Hooghly</name></District>
+    <District><name>Nadia</name></District>
+    <District><name>Dakshin Dinajpur</name></District>
+    <District><name>Purulia</name></District>
+    <District><name>Uttar Dinajpur</name></District>
+    <District><name>Siliguri</name></District>
+</WestBengal>

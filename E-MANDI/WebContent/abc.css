@@ -1,0 +1,114 @@
+#loginBox {
+    width: 400px;
+    height: 90px;
+    position: absolute;
+    top: 0px;
+    right: 35px;
+    padding: 20px 10px 0px;
+    color: rgb(216, 216, 216);
+    font-size: 9px;
+	
+}
+#navbar_loginform{
+float: right;
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0px;
+    padding: 0px;
+	
+}
+.floatcontainer, .formcontrols .blockrow, dl.stats {
+    font-weight: normal;
+}
+body, legend {
+    font-family: "Arial","Helvetica",sans-serif;
+}
+body {
+    font-size: 13px;
+    color: rgb(77, 81, 83);
+    line-height: 1.23;
+}
+body {
+    font: 13px/1.231 arial,helvetica,clean,sans-serif;
+}
+html {
+    color: rgb(0, 0, 0);
+}
+.loginInput {
+    background: none repeat scroll 0% 0% transparent;
+    border: 0px none;
+    color: rgb(198, 198, 198) !important;
+    font-size: 12px !important;
+    width: 114px;
+    height: 21px;
+}
+.textbox, textarea, select {
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+    border: 1px solid rgb(205, 201, 191);
+    padding: 4px 5px;
+    outline: 0px none;
+    border-radius: 3px 3px 3px 3px;
+}
+input, textarea, select, button {
+    font: 11px "Arial","Helvetica",sans-serif;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, button, textarea, p, blockquote, th, td {
+    margin: 0px;
+    padding: 0px;
+}
+.loginBoxInput {
+    color: rgb(255, 255, 255);
+	width: 320px
+}
+li {
+    list-style: none outside none;
+}
+.loginBox ul {
+    list-style: none outside none;
+}
+.doc_header {
+    color: rgb(237, 221, 221);
+}
+.memberLinks {
+    padding-top: 0px;
+    float: left;
+    text-transform: uppercase;
+	color:#ffcc00;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, button, textarea, p, blockquote, th, td {
+    margin: 0px;
+    padding: 0px;
+}
+#loginBox {
+    color: rgb(216, 216, 216);
+    font-size: 9px;
+}
+.floatcontainer, .formcontrols .blockrow, dl.stats {
+    font-weight: normal;
+}
+body {
+    font: 13px/1.231 arial,helvetica,clean,sans-serif;
+}
+.submitPad input {
+}
+input, textarea, select, button {
+    font: 11px "Arial","Helvetica",sans-serif;
+}
+.memberLinks a:hover {
+    color: rgb(198, 46, 46);
+	
+}
+.memberLinks a {
+    color: #000000;
+	
+}
+.rememberMe {
+    font-size: 12px;
+    color: #804040;
+}
+.mem{
+position:absolute;
+
+top:20px;
+right:0px;
+}

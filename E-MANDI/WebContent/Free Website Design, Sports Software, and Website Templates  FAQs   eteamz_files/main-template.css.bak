@@ -1,0 +1,695 @@
+@charset "utf-8";
+/* CSS Document */
+/* layout */
+/*body{
+	background:#c9e5fe url(/Assets/templates/bg.gif) top left repeat-x;
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+	text-align:center;
+}*/
+a:visited{
+	color:#073495;
+}
+#site_wrapper{
+	margin:10px auto;
+	position:relative;
+	width:995px;
+	text-align:left;
+}
+#flashcontent, #non_flash{
+	display:block;
+	height:292px;
+	width:771px;
+}
+#non_flash{
+	background:url(/Assets/templates/non-flash.jpg) top left repeat-x;
+	position:relative;
+	text-align:center;
+}
+#flash_enabled{
+	display:block;
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	width:98px;
+	height:26px;
+}
+#flash_enabled a{
+	display:block;
+	width:98px;
+	height:26px;
+}
+#non_flash h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#285fa0;
+	font-size:24px;
+	padding-left:225px;
+	padding-top:50px;
+	margin:0px;
+}
+/* Breadcrumb */
+#breadcrumb{
+	background:url(/Assets/templates/breadcrumb-sprites.gif) 0px 0px no-repeat;
+	color:#ffffff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	display:block;
+	height:20px;
+	line-height:18px;
+	position:absolute;
+	left:0px;
+	top:143px;
+	width:995px;
+}
+#breadcrumb a{
+	color:#c9e5fe;
+	text-decoration:none;
+}
+#breadcrumb a:hover{
+	color:#c9e5fe;
+	text-decoration:underline;
+}
+#breadcrumb .base{
+	background:#194279;
+	margin-left:9px;
+	margin-top:1px;
+	height:18px;
+	float:left;
+}
+#breadcrumb .level_1{
+	background:#59a7ec;
+	margin-top:1px;
+	height:18px;
+	float:left;
+}
+#breadcrumb .level_2{
+	background:#3974b2;
+	margin-top:1px;
+	height:18px;
+	float:left;
+}
+#breadcrumb .level_3{
+	background:#498ecf;
+	margin-top:1px;
+	height:18px;
+	float:left;
+}
+#breadcrumb .divider_1{
+	background:url(/Assets/templates/breadcrumb-sprites.gif) 0px -40px no-repeat;
+	display:block;
+	height:20px;
+	width:23px;
+	float:left;
+}
+#breadcrumb .divider_2{
+	background:url(/Assets/templates/breadcrumb-sprites.gif) -84px -40px no-repeat;
+	display:block;
+	height:20px;
+	width:23px;
+	float:left;
+}
+#breadcrumb .divider_3{
+	background:url(/Assets/templates/breadcrumb-sprites.gif) -168px -40px no-repeat;
+	display:block;
+	height:20px;
+	width:23px;
+	float:left;
+}
+#breadcrumb .divider_4{
+	background:url(/Assets/templates/breadcrumb-sprites.gif) -252px -40px no-repeat;
+	display:block;
+	height:20px;
+	width:23px;
+	float:left;
+}
+#breadcrumb .divider_5{
+	background:url(/Assets/templates/breadcrumb-sprites.gif) -336px -40px no-repeat;
+	display:block;
+	height:20px;
+	width:23px;
+	float:left;
+}
+/* navigation */
+#top_nav,
+#top_nav_sport{
+	height:143px;
+	position:relative;
+	text-align:left;
+	width:995px;
+}
+#top_nav_sport{
+	height:163px;
+	position:relative;
+	text-align:left;
+	width:995px;
+}
+#top_nav .logo,
+#top_nav_sport .logo{
+	background:url(/Assets/templates/nav-sprites.gif) 0px -753px no-repeat;
+	height:86px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:200px;
+}
+#top_nav .logo a,
+#top_nav_sport .logo a{
+	display:block;
+	height:86px;
+	width:200px;
+}
+#top_nav .logo a span,
+#top_nav_sport .logo a span{
+	display:none;
+}
+#main_nav{
+	background:url(/Assets/templates/nav-sprites.gif) 0px 0px no-repeat;
+	height:38px;
+	position:absolute;
+	right:224px;
+	top:18px;
+	width:462px;
+}
+#main_nav span{
+	display:none;
+}
+#main_nav .free_website, #main_nav .tour, #main_nav .community, #main_nav .partners, #main_nav .pricing, #main_nav .faqs, #main_nav .divider{
+	float:left;
+}
+#main_nav .divider{
+	background:url(/Assets/templates/nav-sprites.gif) -127px 0px no-repeat;
+	display:block;
+	height:38px;
+	width:2px;
+}
+#main_nav a.free_website{
+	background:url(/Assets/templates/nav-sprites.gif) 0px 0px no-repeat;
+	display:block;
+	height:38px;
+	width:127px;
+}
+#main_nav a:hover.free_website{
+	background:url(/Assets/templates/nav-sprites.gif) 0px -38px no-repeat;
+	display:block;
+	height:38px;
+	width:127px;
+}
+#main_nav a.tour{
+	background:url(/Assets/templates/nav-sprites.gif) -129px 0px no-repeat;
+	display:block;
+	height:38px;
+	width:71px;
+}
+#main_nav a:hover.tour{
+	background:url(/Assets/templates/nav-sprites.gif) -129px -38px no-repeat;
+	display:block;
+	height:38px;
+	width:71px;
+}
+#main_nav a.partners{
+	background:url(/Assets/templates/nav-sprites.gif) -202px 0px no-repeat;
+	display:block;
+	height:38px;
+	width:92px;
+}
+#main_nav a:hover.partners{
+	background:url(/Assets/templates/nav-sprites.gif) -202px -38px no-repeat;
+	display:block;
+	height:38px;
+	width:92px;
+}
+#main_nav a.pricing{
+	background:url(/Assets/templates/nav-sprites.gif) -296px -1100px no-repeat;
+	display:block;
+	height:38px;
+	width:84px;
+}
+#main_nav a:hover.pricing{
+	background:url(/Assets/templates/nav-sprites.gif) -296px -1138px no-repeat;
+	display:block;
+	height:38px;
+	width:84px;
+}
+#main_nav a.faqs{
+	background:url(/Assets/templates/nav-sprites.gif) -382px 0px no-repeat;
+	display:block;
+	height:38px;
+	width:80px;
+}
+#main_nav a:hover.faqs{
+	background:url(/Assets/templates/nav-sprites.gif) -382px -38px no-repeat;
+	display:block;
+	height:38px;
+	width:80px;
+}
+/* main nav selected */
+#partners #main_nav a.partners{
+	background:url(/Assets/templates/nav-sprites.gif) -202px -426px no-repeat;
+}
+#partners #main_nav a:hover.partners{
+	background:url(/Assets/templates/nav-sprites.gif) -202px -426px no-repeat;
+}
+#faqs #main_nav a.faqs{
+	background:url(/Assets/templates/nav-sprites.gif) -382px -426px no-repeat;
+}
+#faqs #main_nav a:hover.faqs{
+	background:url(/Assets/templates/nav-sprites.gif) -382px -426px no-repeat;
+}
+#pricing #main_nav a.pricing{
+	background:url(/Assets/templates/nav-sprites.gif) -296px -426px no-repeat;
+}
+#pricing #main_nav a:hover.pricing{
+	background:url(/Assets/templates/nav-sprites.gif) -296px -426px no-repeat;
+}
+#sign_up_nav{
+	background:url(/Assets/templates/nav-sprites.gif) 0px -76px no-repeat;
+	height:38px;
+	position:absolute;
+	right:18px;
+	top:18px;
+	width:165px;
+}
+#sign_up_nav span{
+	display:none;
+}
+#sign_up_nav .sign_up, #sign_up_nav .log_in{
+	float:left;
+}
+#sign_up_nav a.sign_up{
+	background:url(/Assets/templates/nav-sprites.gif) 0px -76px no-repeat;
+	display:block;
+	height:38px;
+	width:85px;
+}
+#sign_up_nav a:hover.sign_up{
+	background:url(/Assets/templates/nav-sprites.gif) 0px -114px no-repeat;
+	display:block;
+	height:38px;
+	width:85px;
+}
+#sign_up_nav a.log_in, #sign_up_nav a:hover.log_in{
+	background:url(/Assets/templates/nav-sprites.gif) -85px -76px no-repeat;
+	display:block;
+	height:38px;
+	width:80px;
+}
+#sports_nav{
+	background:url(/Assets/templates/sports-sprites.gif) top left no-repeat;
+	height:58px;
+	position:absolute;
+	left:0px;
+	top:86px;
+	width:995px;
+}
+#baseball .baseball,
+#football .football,
+#soccer .soccer,
+#basketball .basketball,
+#icehockey .icehockey,
+#cheerleading .cheerleading,
+#softball .softball,
+#volleyball .volleyball,
+#lacrosse .lacrosse,
+#swimming .swimming,
+#tennis .tennis,
+#bowling .bowling,
+#moresports .moresports{
+	background:url(/Assets/templates/selected-arrow.gif) bottom center no-repeat;
+}
+#sports_nav a, 
+#sports_nav a:hover{
+	color:#545454;
+	float:left;
+	display:block;
+	font-size:10px;
+	padding-top:38px;
+	padding-bottom:6px;
+	text-align:center;
+	text-decoration:none;
+	width:76px;
+	overflow:hidden;
+}
+/* content */
+#header{
+	background:url(/Assets/templates/header-bg.gif) top left no-repeat;
+	height:292px;
+	position:relative;
+}
+#header span{
+	display:none;
+}
+#main{
+	background:url(/Assets/templates/content-bg.gif) top left repeat-y;
+}
+#main_btm{
+	background:url(/Assets/templates/content-btm.gif) top left no-repeat;
+	font-size:2px;
+	height:12px;
+}
+#content{
+	padding:25px 20px 25px 15px;
+}
+#content h2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#275e9f;
+	margin:23px 0px;
+	padding-top:0px;
+}
+#content h1.first,
+#content h2.first{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#275e9f;
+	margin:0px 0px 23px 0px;
+	padding-top:0px;
+}
+#content p a{
+	color:#073495;
+	text-decoration:none;
+}
+#content p a:hover{
+	color:#0000ff;
+	text-decoration:underline;
+}
+#content .clear{
+	clear:both;
+	display:block;
+	font-size:2px;
+	height:2px;
+}
+#content .clear_rule{
+	display:block;
+	height:2px;
+	clear:both;
+	border-bottom:1px solid #c9e5fe;
+	font-size:2px;
+	margin-top:25px;
+}
+#content ul.features{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+#content ul.features li{
+	height:78px;
+	float:left;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	width:320px;
+}
+#content ul.features li h3{
+	color:#072495;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	margin:0px;
+	padding:0px;
+	padding-left:83px;
+}
+#content ul.features li h3 a{
+	color:#072495;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+}
+#content ul.features li h3 a:hover{
+	color:#072495;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+#content ul.features li p{
+	color:#545454;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	margin:0px;
+	padding:0px 20px 0px 83px;
+}
+#content ul.features li span{
+	display:none;
+}
+#content ul.features li.professional_website_templates a.icon, 
+#content ul.features li.professional_website_templates a:hover.icon,
+#content ul.features li.smartmessages a.icon,
+#content ul.features li.smartmessages a:hover.icon,
+#content ul.features li.calendars a.icon,
+#content ul.features li.calendars a:hover.icon,
+#content ul.features li.rosters a.icon,
+#content ul.features li.rosters a:hover.icon,
+#content ul.features li.photos a.icon,
+#content ul.features li.photos a:hover.icon,
+#content ul.features li.music a.icon,
+#content ul.features li.music a:hover.icon,
+#content ul.features li.site_management a.icon,
+#content ul.features li.site_management a:hover.icon,
+#content ul.features li.statistics a.icon,
+#content ul.features li.statistics a:hover.icon,
+#content ul.features li.control_ads a.icon,
+#content ul.features li.control_ads a:hover.icon,
+#content ul.features li.fundraising a.icon,
+#content ul.features li.fundraising a:hover.icon,
+#content ul.features li.social-media a.icon,
+#content ul.features li.social-media a:hover.icon,
+#content ul.features li.online_reg .icon,
+#content ul.features li.apparel .icon,
+#content ul.features li.team_store .icon{
+	display:block;
+	position:absolute;
+	top:0px;
+}
+#content ul.features li.professional_website_templates a.icon, #content ul.features li.professional_website_templates a:hover.icon{
+	background:url(/Assets/templates/features-sprites.jpg) -15px 0px no-repeat;
+	height:50px;
+	width:50px;
+	left:25px;
+}
+#content ul.features li.smartmessages a.icon, #content ul.features li.smartmessages a:hover.icon{
+	background:url(/Assets/templates/features-sprites.jpg) 0px -90px no-repeat;
+	height:52px;
+	width:68px;
+	left:10px;
+}
+#content ul.features li.calendars a.icon, #content ul.features li.calendars a:hover.icon{
+	background:url(/Assets/templates/features-sprites.jpg) -15px -180px no-repeat;
+	height:51px;
+	width:51px;
+	left:25px;
+}
+#content ul.features li.rosters a.icon, #content ul.features li.rosters a:hover.icon{
+	background:url(/Assets/templates/features-sprites.jpg) -18px -270px no-repeat;
+	height:54px;
+	width:48px;
+	left:27px;
+}
+#content ul.features li.photos a.icon, #content ul.features li.photos a:hover.icon{
+	background:url(/Assets/templates/features-sprites.jpg) -13px -360px no-repeat;
+	height:52px;
+	width:52px;
+	left:23px;
+}
+#content ul.features li.music a.icon, #content ul.features li.music a:hover.icon{
+	background:url(/Assets/templates/features-sprites.jpg) -13px -450px no-repeat;
+	height:48px;
+	width:52px;
+	left:23px;
+}
+#content ul.features li.site_management a.icon, #content ul.features li.site_management a:hover.icon{
+	background:url(/Assets/templates/features-sprites.jpg) -3px -540px no-repeat;
+	height:52px;
+	width:62px;
+	left:13px;
+}
+#content ul.features li.statistics a.icon, #content ul.features li.statistics a:hover.icon{
+	background:url(/Assets/templates/features-sprites.jpg) -17px -630px no-repeat;
+	height:51px;
+	width:52px;
+	left:25px;
+}
+#content ul.features li.control_ads a.icon, #content ul.features li.control_ads a:hover.icon{
+	background:url(/Assets/templates/features-sprites.jpg) -16px -720px no-repeat;
+	height:50px;
+	width:49px;
+	left:26px;
+}
+#content ul.features li.fundraising a.icon, #content ul.features li.fundraising a:hover.icon{
+	background:url(/Assets/templates/features-sprites.jpg) -25px -810px no-repeat;
+	height:51px;
+	width:44px;
+	left:26px;
+}
+#content ul.features li.social-media a.icon, #content ul.features li.social-media a:hover.icon{
+	background:url(/Assets/templates/features-sprites.jpg) -10px -1170px no-repeat;
+	height:55px;
+	width:60px;
+	left:13px;
+}
+#content ul.features li.online_reg .icon{
+	background:url(/Assets/templates/features-sprites.jpg) -16px -900px no-repeat;
+	height:46px;
+	width:53px;
+	left:22px;
+	display:block;
+}
+#content ul.features li.apparel .icon{
+	background:url(/Assets/templates/features-sprites.jpg) -20px -990px no-repeat;
+	height:51px;
+	width:49px;
+	left:26px;
+	display:block;
+}
+#content ul.features li.team_store .icon{
+	background:url(/Assets/templates/features-sprites.jpg) -20px -1080px no-repeat;
+	height:51px;
+	width:49px;
+	left:26px;
+	display:block;
+}
+#content .things_8{
+	float:left;
+	width:425px;
+	padding-left:25px;
+	padding-right:25px;
+}
+#content ol.unique{
+	padding:0px;
+	margin:0px;
+	/*list-style:none;*/
+}
+#content ol.unique li{
+	color:#545454;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:22px;
+	margin:0px;
+	padding:0px;
+}
+#content span{
+	display:none;
+}
+/* buttons */
+#btn_find_a_team{
+	display:block;
+	height:38px;
+	position:absolute;
+	right:32px;
+	top:181px;
+	width:171px;
+}
+#btn_find_a_team a, #btn_find_a_team a:hover{
+	background:url(/Assets/templates/nav-sprites.gif) 0px -152px no-repeat;
+	display:block;
+	height:38px;
+	width:171px;
+}
+#btn_find_a_tournament{
+	display:block;
+	height:38px;
+	position:absolute;
+	right:32px;
+	top:229px;
+	width:171px;
+}
+#btn_find_a_tournament a, #btn_find_a_tournament a:hover{
+	background:url(/Assets/templates/nav-sprites.gif) 0px -190px no-repeat;
+	display:block;
+	height:38px;
+	width:171px;
+}
+#btn_take_a_tour{
+	display:block;
+	height:38px;
+	margin:0 auto;
+	width:154px;
+}
+#btn_take_a_tour a, #btn_take_a_tour a:hover{
+	background:url(/Assets/templates/nav-sprites.gif) 0px -228px no-repeat;
+	display:block;
+	height:38px;
+	width:154px;
+}
+#btn_free_website{
+	display:block;
+	height:80px;
+	position:absolute;
+	right:12px;
+	top:52px;
+	width:196px;
+}
+#btn_free_website a{
+	background:url(/Assets/templates/nav-sprites.gif) 0px -266px no-repeat;
+	display:block;
+	height:80px;
+	width:196px;
+}
+#btn_free_website a:hover{
+	background:url(/Assets/templates/nav-sprites.gif) 0px -346px no-repeat;
+	display:block;
+	height:80px;
+	width:196px;
+}
+/* footer */
+#footer{
+	color:#072495;
+	font-size:10px;
+	text-align:center;
+	padding-bottom:30px;
+}
+#footer p{
+	color:#545454;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	padding:20px 157px;
+	margin:0px;
+	text-align:left;
+}
+#footer a{
+	color:#072495;
+	text-decoration:none;
+}
+#footer a:hover{
+	color:#072495;
+	text-decoration:underline;
+}
+/* A2 Styles for yellow bar */
+#active {
+	margin:0 auto;
+	margin-top:-25px;
+	width:990px;
+	text-align:right;
+	position:absolute;
+}
+#active #active_logo{
+	background:url(/Assets/templates/an-eteamz-footer.png) 0px 0px no-repeat;
+	float:right;
+	display:block;
+	height:13px;
+	width:118px;
+	margin-right:4px;
+}
+#active #active_logo a{
+	display:block;
+	height:26px;
+	width:123px;
+}
+#active #espn_logo{
+	background:url(/Assets/templates/nav-sprites.gif) -323px -839px no-repeat;
+	float:right;
+	display:block;
+	height:26px;
+	width:67px;
+}
+#active #espn_logo a{
+	display:block;
+	height:26px;
+	width:67px;
+}
+#active #active_logo a span, #active #espn_logo a span{
+	display:none;
+}

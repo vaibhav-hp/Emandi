@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ascii"?>
+<Jharkhand>
+
+   <District><name> Deoghar</name> </District>
+   <District> <name>Dhanbad</name></District>
+    <District><name>Giridih</name></District>
+   <District> <name>Godda</name></District>
+   <District> <name>Gumla</name></District>
+   <District> <name>Hazaribagh</name></District>
+   <District> <name>Lohardaga</name></District>
+   <District> <name>Palamu</name></District>
+   <District> <name>Ranchi</name></District>
+   <District> <name>Dumka</name></District>
+   <District> <name>Chaibasa(West Singhbhum)</name></District>
+   <District> <name>Jamshedpur(East Singhbhum)</name></District>
+   <District> <name>Bokaro</name></District>
+   <District> <name>Chatra</name></District>
+  <District>  <name>Garhwa</name></District>
+  <District>  <name>Koderma</name></District>
+  <District>  <name>Pakur</name></District>
+  <District>  <name>Sahebganj</name></District>
+  <District>  <name>Simdega</name></District>
+  <District>  <name>Latehar</name></District>
+  <District>  <name>Saraikela</name></District>
+  <District>  <name>Jamtara</name></District>
+</Jharkhand>

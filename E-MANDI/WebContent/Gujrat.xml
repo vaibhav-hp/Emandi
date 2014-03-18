@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ascii"?>
+<Gujrat>
+
+    <District><name>Panchmahals</name> </District>
+    <District><name>Vadodara</name></District>
+    <District><name>Amrela</name></District>
+    <District><name>Kheda</name></District>
+   <District> <name>Ahmedabad</name></District>
+   <District><name> Valsad</name></District>
+    <District><name>Junagadh</name></District>
+    <District><name>Mehsana</name></District>
+   <District> <name>Banaskantha</name></District>
+    <District><name>Gandhinagar</name></District>
+    <District><name>Bharuch</name></District>
+    <District><name>Dangs</name></District>
+    <District><name>Jamnagar</name></District>
+    <District><name>Rajkot</name></District>
+    <District><name>Surat</name></District>
+    <District><name>Sabarkantha</name></District>
+    <District><name>Kutch</name></District>
+    <District><name>Bhavnagar</name></District>
+    <District><name>Surendranagar</name></District>
+    <District><name>Navsari</name></District>
+    <District><name>Anand</name></District>
+    <District><name>Narmada</name></District>
+    <District><name>Patan</name></District>
+    <District><name>Porbander</name></District>
+    <District><name>Dahod</name></District>
+
+</Gujrat>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ascii"?>
+
+<Uttaranchal>
+
+ <District> <name>  Nainital </name></District>
+    <District><name> Almora</name></District>
+    <District><name> Pitoragarh</name></District>
+    <District><name> Udhamsingh Nagar</name></District>
+    <District><name> Bageshwar</name></District>
+   <District><name>  Champawat</name></District>
+   <District><name>  Garhwal(Pauri)</name></District>
+    <District><name> Tehri-Garhwal</name></District>
+   <District><name>  Chamoli( Gopeshwar ) </name></District>
+   <District><name>  Uttarkashi</name> </District>
+   <District><name>  Dehradun</name></District>
+   <District><name>  Rudraprayag</name></District>
+   <District><name>  Haridwar</name></District>
+</Uttaranchal>

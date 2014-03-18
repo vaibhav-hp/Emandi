@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ascii"?>
+<Chattisgarh>
+
+
+
+    <District><name> Bastar  </name>  </District>
+    <District><name> Bilaspur</name></District>
+    <District><name> Dantewada</name></District>
+     <District><name>Dhamtari</name></District>
+     <District><name>Durg</name></District>
+     <District><name>Janjgir-Champa</name></District>
+     <District><name>Jashpur</name></District>
+     <District><name>Kanker</name></District>
+    <District> <name>Kawardha</name></District>
+    <District> <name>Korba</name></District>
+    <District> <name>Koriya</name></District>
+    <District> <name>Mahasamund</name></District>
+    <District> <name>Raigarh</name></District>
+    <District> <name>Rajnandgaon</name></District>
+    <District> <name>Surguja</name></District>
+    <District> <name>Raipur</name></District>
+</Chattisgarh>

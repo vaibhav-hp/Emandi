@@ -1,0 +1,887 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html >
+<head>
+<link rel="shortcut icon" href="img/a.jpg" type="image/x-icon" />
+
+	
+<meta http-equiv="content-type" content="text/html; charset=utf-8"><title>Inflation Form</title>
+<link href="default.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/default3.css"/>
+<link rel="stylesheet" type="text/css" href="table.css"/>
+<link rel="stylesheet" href="./css3menu.com_files/style.css" type="text/css">
+<!-- <link rel="stylesheet" href="abc.css"> -->
+<style>
+td
+{
+align:center;
+padding:2px;
+}
+table
+{
+padding:20px;
+width:1000px;
+margin:0 85px 0;
+}
+</style>
+<script type='text/javascript'>
+function formValidationb()  
+{  
+var veg=document.registration.vegetable;
+var wsr=document.registration.WS/Retailer;
+var qreq=document.registration.qtyreq;
+var units=document.registration.units;  
+if(select(veg))  
+{
+if(select(wsr))  
+{
+if(isqreq(qreq))  
+{
+if(cselect(units)) 
+{ 
+}
+}
+}
+}
+return false;  
+}
+
+  
+
+function isqreq(qreq)  
+{   
+var numbers = /^[0-9]+$/;  
+if(qreq.value.match(numbers))  
+{  
+return true;  
+}  
+else  
+{  
+alert('quantity required must have numeric characters only');  
+qreq.focus();  
+return false;  
+}  
+} 
+ 
+ 
+function select(veg)
+{
+ 
+   if( veg.value == "" || veg.value=="-1" )
+   {
+     alert( "Please select one of the type of vegetables" );
+     veg.focus() ;
+     return false;
+   }
+   
+  
+   return true ;
+}
+function select(wsr)
+{
+ 
+   if( wsr.value == "" || wsr.value=="-1" )
+   {
+     alert( "Please select one of the WholeSeller/Retailer" );
+     wsr.focus() ;
+     return false;
+   }
+   
+  
+   return true ;
+}
+
+function cselect(units)
+{
+ 
+   if( units.value == "" || units.value=="-1" )
+   {
+     alert( "Please select one of the units" );
+     units.focus() ;
+     return false;
+   }
+   
+  
+   return true ;
+}</script>
+
+</head>
+<body style="background-color:$PageBgColor$" onload="document.registration.userid.focus();">
+
+	
+<!-- <div class="loginBox">
+<form id="navbar_loginform" action="login.php?do=login" method="post" onsubmit="md5hash(vb_login_password, vb_login_md5password, vb_login_md5password_utf, 1)">
+<ul> <li class="inputPad">
+<div class="loginBoxInput">
+<input title="Username or Email id" class="textbox default-value loginInput" name="vb_login_username" id="navbar_username" size="10" accesskey="u" tabindex="101" value="User Name" type="text"></div><div class="loginBoxInput"> 
+<input style="display: none;" class="loginInput textbox default-value" tabindex="102" title="Password" name="vb_login_password" id="navbar_password" size="10" type="password"> 
+<input class="loginInput textbox default-value" tabindex="102" title="Password" name="vb_login_password_hint" id="navbar_password_hint" size="10" value="Password" style="display: inline;" type="text"></div></li> 
+<!-- <li class="inputPad">
+</li> 
+<li class="submitPad">
+<input src="images/login2.jpg" tabindex="104" value="Log in" title="Enter your username and password in the boxes provided to login, or click the 'register' button to create a profile for yourself." accesskey="s" type="image"></li></ul>
+<div class="memberBottom">
+<div class="memberLinks"> <a href="login.php?do=lostpw">Forgot password?</a>  |  
+<a href="register.php" rel="nofollow">Register</a></div>
+<div class="rememberMe">
+<label for="cb_cookieuser_navbar">
+<input name="cookieuser" value="1" tabindex="103" id="cb_cookieuser_navbar" class="cb_cookieuser_navbar" accesskey="c" checked="checked&quot;/" type="checkbox"> Remember Me?</label></div></div> 
+<input name="s" value="" type="hidden"> <input name="securitytoken" value="guest" type="hidden"> <input name="do" value="login" type="hidden"> 
+<input name="vb_login_md5password" type="hidden">
+<input name="vb_login_md5password_utf" type="hidden"></form></div> -->
+
+
+
+
+
+	<!-- <div id="logo">
+
+		<h1><a href="#">its me..</a></h1>
+	
+	</div> -->
+<br><br><br><BR><BR><BR><BR><BR>
+
+
+
+<!-- Start css3menu.com BODY section -->
+<ul id="css3menu1" class="topmenu">
+	<li class="topfirst"><a href="home.html" style="height:18px;line-height:18px;">HOME</a></li>
+	<li class="topmenu"><a href="registration.html" style="height:18px;line-height:18px;">REGISTER</a></li>
+	<li class="topmenu"><a href="#" style="height:18px;line-height:18px;"><span>MY ACCOUNT</span></a>
+	<ul>
+		<li><a href="updateprofile.html">UPDATE PROFILE</a></li>
+	</ul></li>
+	<li class="topmenu"><a href="#" style="height:18px;line-height:18px;"><span>SERVICES</span></a>
+	<ul>
+		<li><a href="inflation.html">INFLATION</a></li>
+		<li><a href="booking.html">BOOK VEGETABLE</a></li>
+		<li><a href="nearest_location.html">NEAREST BAZAAR</a></li>
+		<li><a href="addvegupdate.html">UPDATE PRICE</a></li>
+		<li><a href="addvegupdate.html">ADD VEGETABLE</a></li>
+	</ul></li>
+	<li class="topmenu"><a href="contactus.html" style="height:18px;line-height:18px;">CONTACT US</a></li>
+	<li class="topmenu"><a href="aboutus1.htm" style="height:18px;line-height:18px;">ABOUT US</a></li>
+	<li class="topmenu"><a href="faq.html" style="height:18px;line-height:18px;">FAQ</a></li>
+	<li class="toplast"><a href="#" style="height:18px;line-height:18px;"><span>HELP</span></a>
+	<ul>
+		<li><a href="#">VIDEO DEMO</a></li>
+	</ul></li>
+</ul>
+<!-- End css3menu.com BODY section -->
+
+
+
+
+
+<!-- <div id="menu">
+		<ul><li><a href="home.html">home</a></li>
+			<li><a href="#">photos</a></li>
+			<li><a href="#">about</a></li>
+			<li><a href="#">links</a></li>
+			<li><a href="contactus.html">contact us</a></li>
+			<li><a href="register.html">register</a></li>
+		</ul></div>
+ -->
+
+
+<BR><BR><BR><BR>
+
+
+
+<form action="" class="register" name='registration' onSubmit="return formValidationb();">
+            <h1>Inflation rates</h1>
+            <fieldset class="row1">
+                
+                <p>
+                    <label for="state">State/Union Territory
+                    </label>
+                   <select name="state"><option value="-1">
+                        </option>
+                        <option value="1">Andhra Pradesh
+                        </option>
+						<option value="2">Arunachal Pradesh
+                        </option>
+						<option value="3">Assam
+                        </option>
+		   <option value="4">Bihar
+                        </option><option value="5">Chattisgarh
+                        </option><option value="6">Goa
+                        </option><option value="7">Gujarat
+                        </option><option value="8">Haryana
+                        </option><option value="9">Himachal Pradesh
+                        </option><option value="10">Jammu and Kashmir
+                        </option><option value="11">Jharkhand
+                        </option><option value="12">Karnataka
+                        </option><option value="13">Kerala
+                        </option><option value="14">Madhya Pradesh
+                        </option><option value="15">Maharashtra
+                        </option><option value="16">Manipur
+                        </option><option value="17">Meghalaya
+                        </option><option value="18">Mizoram
+                        </option><option value="19">Nagaland
+                        </option><option value="20">Orissa
+                        </option><option value="21">Punjab
+                        </option><option value="22">Rajasthan
+                        </option><option value="23">Sikkim
+                        </option><option value="24">Tamilnadu
+                        </option><option value="25">Tripura
+                        </option><option value="26">Uttaranchal
+                        </option><option value="27">West Bengal
+                        </option><option value="28">Andaman and Nicobar Islands
+                        </option><option value="29">Chandigarh
+                        </option><option value="30">Dadar and Nagar Haveli
+                        </option><option value="31">Daman and Diu
+                        </option><option value="32">Delhi
+                        </option><option value="33">Lakshadeep
+                        </option><option value="34">Pondicherry
+                        </option>
+                    </select>
+                   
+                </p>
+				<p>
+                    <label>City 
+                    </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select name="city"><option value="-1">
+                        </option>
+                        <option value="1">Hyderabad
+                        </option>
+						<option value="2">Visakhapatnam
+                        </option>
+						<option value="3">Vijayawada
+                        </option>
+		   <option value="4">Warangal
+                        </option><option value="5">Guntur
+                        </option><option value="6">Nellore
+                        </option><option value="7">Rajahmundry
+                        </option><option value="8">Kurnool
+                        </option><option value="9">Tirupati
+                        </option><option value="10">Kakinada
+                        </option><option value="11">Kadapa
+                        </option><option value="12">Anantapur
+                        </option><option value="13">Nizamabad
+                        </option><option value="14">Karimnagar
+                        </option><option value="15">Khammam
+                        </option><option value="16">Ramagundam
+                        </option><option value="17">Eluru
+                        </option><option value="18">Vizianagaram
+                        </option><option value="19">Proddatur
+                        </option><option value="20">Nandyal
+                        </option><option value="21">Mahbubnagar
+                        </option><option value="22">Ongole
+                        </option><option value="23">Adoni
+                        </option><option value="24">Madanapalle
+                        </option><option value="25">Chittoor
+                        </option><option value="26">Machilipatnam
+                        </option><option value="27">Tenali
+                        </option><option value="28">Mancherial
+                        </option><option value="29">Chirala
+                        </option><option value="30">Nalgonda
+                        </option><option value="31">Hindupur
+                        </option><option value="32">Bhimavaram
+                        </option><option value="33">Srikakulam
+                        </option><option value="34">Adilabad
+                        </option><option value="35">Guntakal
+                        </option><option value="36">Dharmavaram
+                        </option><option value="37">Kothagudem
+                        </option><option value="38">Gudivada
+                        </option><option value="39">Narsaraopet
+                        </option><option value="40">Siddipet
+                        </option><option value="41">Tadpatri
+                        </option><option value="42">Suryapet
+                        </option><option value="43">Miryalaguda
+                        </option><option value="44">Jagtial
+                        </option><option value="45">Tadepalligudem
+                        </option><option value="46">Chilakaluripet
+                        </option>
+                    </select>
+                </p>
+                <p>
+                    <label for="WS/Retailer">WS/Retailer
+                    </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select name="WS/Retailer"><option value="-1">
+              </option><option value="1">WS/Retailer-1
+                        </option><option value="2">WS/Retailer-2
+                        </option><option value="3">WS/Retailer-3
+                        </option>
+						</select>
+                   
+                </p>
+				<p >
+<table>
+<tr>
+  <th>Vegetable</th>
+  <th>Price on<br></th>
+  <th>Price on<br></th>
+  <th>Price Difference</th>
+</tr>
+<tr>
+<td>Artichoke</td>
+<td>5</td>
+<td>4</td>
+<td>1</td>
+</tr>
+<tr class="alt">
+<td>Arugula</td>
+<td>4</td>
+<td>3</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Asparagus</td>
+<td>7</td>
+<td>5</td>
+<td>2</td>
+</tr>
+<tr class="alt">
+<td>Azuki beans</td>
+<td>9</td>
+<td>6</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Bean sprouts</td>
+<td>9</td>
+<td>7</td>
+<td>2</td>
+</tr>
+<tr class="alt">
+<td>Black beans</td>
+<td>9</td>
+<td>8</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Black-eyed peas</td>
+<td>11</td>
+<td>8</td>
+<td>3</td>
+</tr>
+<tr class="alt">
+<td>Borlotti beans</td>
+<td>11</td>
+<td>9</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Broad beans</td>
+<td>11</td>
+<td>10</td>
+<td>1</td>
+</tr>
+<tr class="alt">
+<td>Chickpeas</td>
+<td>11</td>
+<td>7</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Green beans</td>
+<td>11</td>
+<td>8</td>
+<td>3</td>
+</tr>
+<tr class="alt">
+<td>Kidney beans</td>
+<td>11</td>
+<td>6</td>
+<td>5</td>
+</tr>
+<tr >
+<td>Lentils</td>
+<td>12</td>
+<td>6</td>
+<td>6</td>
+</tr>
+<tr class="alt">
+<td>Lima beans</td>
+<td>6</td>
+<td>3</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Mung beans</td>
+<td>7</td>
+<td>4</td>
+<td>3</td>
+</tr>
+<tr class="alt">
+<td>Navy beans</td>
+<td>9</td>
+<td>7</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Pinto beans</td>
+<td>10</td>
+<td>7</td>
+<td>3</td>
+</tr>
+<tr class="alt">
+<td>Runner beans</td>
+<td>9</td>
+<td>4</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Soy beans</td>
+<td>11</td>
+<td>4</td>
+<td>7</td>
+</tr>
+<tr class="alt">
+<td>Peas</td>
+<td>11</td>
+<td>10</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Bok choy</td>
+<td>11</td>
+<td>8</td>
+<td>3</td>
+</tr>
+<tr class="alt">
+<td>Breadfruit</td>
+<td>11</td>
+<td>11</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Broccoflower</td>
+<td>11</td>
+<td>8</td>
+<td>3</td>
+</tr>
+<tr class="alt">
+<td>Broccoli</td>
+<td>11</td>
+<td>5</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Brussels sprouts</td>
+<td>5</td>
+<td>4</td>
+<td>1</td>
+</tr>
+<tr class="alt">
+<td>Cabbage</td>
+<td>4</td>
+<td>3</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Calabrese</td>
+<td>7</td>
+<td>5</td>
+<td>2</td>
+</tr>
+<tr class="alt">
+<td>Cauliflower</td>
+<td>9</td>
+<td>10</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>Celery</td>
+<td>9</td>
+<td>9</td>
+<td>0</td>
+</tr>
+<tr class="alt">
+<td>Chard</td>
+<td>9</td>
+<td>8</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Collard greens</td>
+<td>11</td>
+<td>4</td>
+<td>7</td>
+</tr>
+<tr class="alt">
+<td>Corn salad</td>
+<td>11</td>
+<td>9</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Endive</td>
+<td>11</td>
+<td>13</td>
+<td>-2</td>
+</tr>
+<tr class="alt">
+<td>Fiddleheads</td>
+<td>11</td>
+<td>7</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Frisee</td>
+<td>11</td>
+<td>8</td>
+<td>3</td>
+</tr>
+<tr class="alt">
+<td>Anise</td>
+<td>11</td>
+<td>6</td>
+<td>5</td>
+</tr>
+<tr >
+<td>Basil</td>
+<td>12</td>
+<td>6</td>
+<td>6</td>
+</tr>
+<tr class="alt">
+<td>Caraway</td>
+<td>6</td>
+<td>3</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Coriander</td>
+<td>7</td>
+<td>4</td>
+<td>3</td>
+</tr>
+<tr class="alt">
+<td>Chamomile</td>
+<td>9</td>
+<td>7</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Dill</td>
+<td>10</td>
+<td>7</td>
+<td>3</td>
+</tr>
+<tr class="alt">
+<td>Fennel</td>
+<td>9</td>
+<td>4</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Lavender</td>
+<td>11</td>
+<td>4</td>
+<td>7</td>
+</tr>
+<tr class="alt">
+<td>Lemon grass</td>
+<td>11</td>
+<td>10</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Marjoram</td>
+<td>11</td>
+<td>8</td>
+<td>3</td>
+</tr>
+<tr class="alt">
+<td>Oregano</td>
+<td>11</td>
+<td>11</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Parsley</td>
+<td>11</td>
+<td>8</td>
+<td>3</td>
+</tr>
+<tr class="alt">
+<td>Rosemary</td>
+<td>11</td>
+<td>5</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Sage</td>
+<td>5</td>
+<td>4</td>
+<td>1</td>
+</tr>
+<tr class="alt">
+<td>Thyme</td>
+<td>4</td>
+<td>3</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Kale</td>
+<td>7</td>
+<td>5</td>
+<td>2</td>
+</tr>
+<tr class="alt">
+<td>Kohlrabi</td>
+<td>9</td>
+<td>6</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Lettuce</td>
+<td>9</td>
+<td>7</td>
+<td>2</td>
+</tr>
+<tr class="alt">
+<td>Maize(Corn)</td>
+<td>9</td>
+<td>8</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Mushrooms</td>
+<td>11</td>
+<td>8</td>
+<td>3</td>
+</tr>
+<tr class="alt">
+<td>Mustard greens</td>
+<td>11</td>
+<td>9</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Nettles</td>
+<td>11</td>
+<td>10</td>
+<td>1</td>
+</tr>
+<tr class="alt">
+<td>Spinach</td>
+<td>11</td>
+<td>7</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Okra</td>
+<td>11</td>
+<td>8</td>
+<td>3</td>
+</tr>
+<tr class="alt">
+<td>Chives</td>
+<td>11</td>
+<td>6</td>
+<td>5</td>
+</tr>
+<tr >
+<td>Garlic</td>
+<td>12</td>
+<td>6</td>
+<td>6</td>
+</tr>
+<tr class="alt">
+<td>Leek</td>
+<td>6</td>
+<td>3</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Onion</td>
+<td>7</td>
+<td>4</td>
+<td>3</td>
+</tr>
+<tr class="alt">
+<td>Shallot</td>
+<td>9</td>
+<td>7</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Spring onion</td>
+<td>10</td>
+<td>7</td>
+<td>3</td>
+</tr>
+<tr class="alt">
+<td>Green pepper</td>
+<td>9</td>
+<td>4</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Red pepper</td>
+<td>11</td>
+<td>4</td>
+<td>7</td>
+</tr>
+<tr class="alt">
+<td>Chili pepper(Capsicum)</td>
+<td>11</td>
+<td>10</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Radicchio</td>
+<td>11</td>
+<td>8</td>
+<td>3</td>
+</tr>
+<tr class="alt">
+<td>Rhubarb</td>
+<td>11</td>
+<td>11</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Beetroot</td>
+<td>11</td>
+<td>8</td>
+<td>3</td>
+</tr>
+<tr class="alt">
+<td>mangel-wurzel</td>
+<td>11</td>
+<td>5</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Carrot</td>
+<td>5</td>
+<td>4</td>
+<td>1</td>
+</tr>
+<tr class="alt">
+<td>Celeriac</td>
+<td>4</td>
+<td>3</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Daikon</td>
+<td>7</td>
+<td>5</td>
+<td>2</td>
+</tr>
+<tr class="alt">
+<td>Ginger</td>
+<td>9</td>
+<td>10</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>Parsnip</td>
+<td>9</td>
+<td>9</td>
+<td>0</td>
+</tr>
+<tr class="alt">
+<td>Rutabaga</td>
+<td>9</td>
+<td>8</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Turnip</td>
+<td>11</td>
+<td>4</td>
+<td>7</td>
+</tr>
+<tr class="alt">
+<td>Radish</td>
+<td>11</td>
+<td>9</td>
+<td>2</td>
+</tr>
+<tr>
+<td>White radish</td>
+<td>11</td>
+<td>13</td>
+<td>-2</td>
+</tr>
+<tr class="alt">
+<td>Salsify</td>
+<td>11</td>
+<td>7</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Skirret</td>
+<td>11</td>
+<td>8</td>
+<td>3</td>
+</tr>
+<tr class="alt">
+<td>Courgette(Zucchini)</td>
+<td>11</td>
+<td>6</td>
+<td>5</td>
+</tr>
+<tr >
+<td>Cucumber</td>
+<td>12</td>
+<td>6</td>
+<td>6</td>
+</tr>
+<tr class="alt">
+<td>Pumpkin</td>
+<td>6</td>
+<td>3</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Tat soi</td>
+<td>7</td>
+<td>4</td>
+<td>3</td>
+</tr>
+<tr class="alt">
+<td>Tomato</td>
+<td>9</td>
+<td>7</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Potato</td>
+<td>10</td>
+<td>7</td>
+<td>3</td>
+</tr>
+<tr class="alt">
+<td>Sweet potato</td>
+<td>9</td>
+<td>4</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Yam</td>
+<td>11</td>
+<td>4</td>
+<td>7</td>
+</tr>
+<tr class="alt">
+<td>Water chestnut</td>
+<td>11</td>
+<td>10</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Watercress</td>
+<td>11</td>
+<td>8</td>
+<td>3</td>
+</tr>
+
+</table>
+</p>
+
+				
+				
+            </fieldset>
+			</form>
+			
+
+	
+	</body>
+</html>

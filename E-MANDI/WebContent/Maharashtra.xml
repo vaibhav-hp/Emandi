@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ascii"?>
+<Maharashtra>
+
+    
+    <District><name> Aurangabad</name></District>
+     <District><name>Bandra(Mumbai Suburban district)</name></District>
+     <District><name>Nagpur</name></District>
+     <District><name>Pune</name></District>
+    <District> <name>Akola</name></District>
+     <District><name>Chandrapur</name></District>
+     <District><name>Jalgaon</name></District>
+     <District><name>Parbhani</name></District>
+     <District><name>Sholapur</name></District>
+     <District><name>Thane</name></District>
+     <District><name>Latur</name></District>
+     <District><name>Mumbai-City</name></District>
+     <District><name>Buldhana</name></District>
+     <District><name>Dhule</name></District>
+     <District><name>Kolhpur</name></District>
+     <District><name>Nanded</name></District>
+     <District><name>Raigad</name></District>
+     <District><name>Amravati</name></District>
+     <District><name>Nashik</name></District>
+     <District><name>Wardha</name></District>
+     <District><name>Ahmednagar</name></District>
+     <District><name>Beed</name></District>
+     <District><name>Bhandara</name></District>
+     <District><name>Gadchiroli</name></District>
+     <District><name>Jalna</name></District>
+     <District><name>Osmanabad</name></District>
+     <District><name>Ratnagiri</name></District>
+     <District><name>Sangli</name></District>
+     <District><name>Satara</name></District>
+     <District><name>Sindudurg</name></District>
+     <District><name>Yavatmal</name></District>
+     <District><name>Nandurbar</name></District>
+     <District><name>Washim</name></District>
+     <District><name>Gondia</name></District>
+     <District><name>Hingoli</name></District>
+</Maharashtra>

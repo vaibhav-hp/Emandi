@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ascii"?>
+<Haryana>
+
+    
+    <District><name>Gurgaon</name></District>
+    <District><name>Rohtak</name></District>
+    <District><name>Ambala</name></District>
+    <District><name>Bhiwani</name></District>
+    <District><name>Faridabad</name></District>
+    <District><name>Hissar</name></District>
+    <District><name>Jind</name></District>
+    <District><name>Kaithal</name></District>
+   <District><name> Karnal</name></District>
+   <District><name> Kurukshetra</name></District>
+   <District><name> Mahendragarh</name></District>
+   <District><name> Panchkula</name></District>
+   <District><name> Panipat</name></District>
+   <District><name> Sonipat</name></District>
+   <District><name> Yamunanagar</name></District>
+   <District><name> Sirsa</name></District>
+   <District><name> Rewari</name></District>
+   <District> <name>Jhanjhar</name></District>
+   <District><name> Fatehabad</name></District>
+</Haryana>

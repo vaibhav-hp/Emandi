@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ascii"?>
+<Rajasthan>
+
+  <District><name>   Jaipur </name>  </District>
+  <District> <name>  Barmer  </name>   </District>
+  <District>  <name> Dungarpur</name></District>
+  <District> <name>  Jodhpur</name></District>
+  <District> <name>  Kota</name></District>
+  <District> <name>  Udaipur</name></District>
+   <District><name>  Bikaner</name></District>
+   <District><name>  Dausa</name></District>
+   <District><name>  Bundi</name></District>
+   <District> <name> Sikar</name></District>
+   <District> <name> Tonk</name></District>
+   <District> <name> Jaisalmer</name></District>
+  <District>  <name> Nagaur</name></District>
+  <District>  <name> Rajsamand</name></District>
+  <District>  <name> Banswara</name></District>
+  <District>  <name> Bhilwara</name></District>
+  <District>  <name> Ajmer</name></District>
+  <District>  <name> Alwar</name></District>
+  <District>  <name> Bharatpur</name></District>
+  <District>  <name> Chittorgarh</name></District>
+  <District>  <name> Churu</name></District>
+   <District> <name> Dholpur</name></District>
+  <District>  <name> Ganganagar</name></District>
+   <District> <name> Jalor</name></District>
+   <District> <name> Jhalawar</name> </District>
+   <District> <name> Jhunjhunu</name></District>
+   <District> <name> Pali</name></District>
+   <District> <name> Sawai Madhopur</name></District>
+   <District> <name> Sirohi</name></District>
+   <District> <name> Baran</name></District>
+   <District> <name> Hanumangarh</name></District>
+   <District> <name> Karauli</name></District>
+
+</Rajasthan>
+	

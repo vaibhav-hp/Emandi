@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ascii"?>
+<AndhraPradesh>
+<District> <name> Nellore</name> </District>
+  <District>  <name>Cuddapah</name> </District>
+  <District>  <name>Karim Nagar</name> </District>
+   <District> <name>Kurnool</name></District>
+   <District> <name>West Godavari</name></District>
+  <District>  <name>Srikakulam</name></District>
+  <District>  <name>Anantpur</name></District>
+ <District>   <name>Adilabad</name></District>
+ <District>   <name>Chittor</name></District>
+ <District>   <name>east Godavari</name></District>
+ <District>   <name>Guntur</name></District>
+  <District>  <name>Hyderabad Urban</name></District>
+  <District>  <name>Khammam</name></District>
+  <District>  <name>Krishna</name></District>
+   <District>   <name>Mehboobnagar</name></District>
+    <District>  <name>Medak</name></District>
+    <District><name>Nalgonda</name></District>
+    <District><name>Nizamabad</name></District>
+    <District><name>Prakasam</name></District>
+    <District><name>Ranga Reddy</name></District>
+    <District><name>Vishakapatnam</name></District>
+    <District><name>Vizianagaram</name></District>
+    <District><name>Warangal</name></District>
+
+</AndhraPradesh>

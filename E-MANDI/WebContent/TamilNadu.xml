@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ascii"?>
+<TamilNadu>
+<District><name> Chennai </name> </District>
+   <District><name>  Coimbotore</name></District>
+   <District><name>  Cuddalorei</name></District>
+   <District><name>  Dharmapuri</name></District>
+   <District><name>  Dindigul</name></District>
+   <District><name>  Erode</name></District>
+   <District> <name> Kancheepuram</name></District>
+   <District> <name> Kanniyakumari (HQ : Nagercoil)</name></District>
+  <District>  <name>  Karur</name></District>
+  <District> <name>  Madurai</name></District>
+  <District> <name>  Nagapattinam</name></District>
+  <District> <name>  Namakkal</name></District>
+  <District> <name>  Nilgiris (HQ: Udhagamandalam)</name></District>
+  <District> <name>  Perambalur</name></District>
+  <District>  <name> Pudukkottai</name></District>
+  <District>  <name> Ramanathapuram</name></District>
+  <District>  <name> Salem</name></District>
+  <District>  <name> Sivaganga</name></District>
+  <District>  <name> Thanjavur</name></District>
+  <District>  <name> Theni</name></District>
+  <District>  <name> Thoothkudi</name></District>
+  <District>  <name> Tiruchiorappalli</name></District>
+  <District>  <name> Tirunelveli</name></District>
+  <District>  <name> Tiruvallur</name></District>
+  <District>  <name> Tiruvannamalai</name></District>
+  <District>  <name> Tiruvarur</name></District>
+  <District>  <name> Vellore</name></District>
+  <District>  <name> Villupuram</name></District>
+  <District><name>   Virudhunagar</name></District>
+</TamilNadu>

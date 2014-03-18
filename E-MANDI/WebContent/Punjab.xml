@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ascii"?>
+<Punjab>
+
+	
+   <District><name> Sangrur </name></District>
+   <District><name> Jalandhar</name></District>
+   <District><name> Ludhiana</name></District>
+   <District><name> Bhatinda</name></District>
+   <District><name> Kapurthala</name></District>
+   <District><name> Patiala</name></District>
+   <District> <name>Amritsar</name></District>
+   <District> <name>Ferozepur</name></District>
+   <District> <name>Fatehgarh Saheb</name></District>
+   <District> <name>Ropar</name></District>
+   <District> <name>Gurdaspur</name></District>
+   <District> <name>Hosiarpur</name></District>
+   <District> <name>Faridkot</name></District>
+   <District> <name>Mansa</name></District>
+   <District> <name>Moga</name></District>
+   <District> <name>Muktsar</name></District>
+   <District> <name>Navansahar</name></District>
+</Punjab>

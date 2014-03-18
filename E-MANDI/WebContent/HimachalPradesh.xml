@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ascii"?>
+<HimachalPradesh>
+  <District> <name> Sirmour </name></District>
+   <District><name> Hamirpur </name></District>
+   <District><name> Kullu</name></District>
+   <District> <name>Solan</name></District>
+   <District> <name>Mandi</name></District>
+   <District> <name>Chamba</name></District>
+   <District> <name>Bilaspur</name></District>
+    <District><name>Kangra</name></District>
+   <District> <name>Kinnaur</name></District>
+   <District> <name>Lahaul-Spiti</name></District>
+   <District> <name>Shimla</name></District>
+   <District> <name>Una</name></District>
+</HimachalPradesh>

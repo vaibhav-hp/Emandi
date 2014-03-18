@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ascii"?>
+<JammuKashmir>
+
+ <District><name>    Kathua</name>  </District> 
+  <District><name>   Badgan</name> </District> 
+  <District><name>   Poonch</name> </District> 
+  <District><name>   Rajauri</name> </District> 
+  <District><name>   Baramula</name> </District> 
+  <District><name>   Dodav</name> </District> 
+  <District><name>   Udhampur</name> </District> 
+   <District><name>  Jammu</name> </District> 
+   <District><name>  Kupwara</name> </District> 
+   <District><name>  Pulwama</name> </District> 
+   <District><name>  Anantnag</name> </District> 
+   <District><name>  Srinagar</name> </District> 
+   <District><name>  Leh</name> </District> 
+   <District><name>  Kargil</name> </District> 
+	</JammuKashmir>
+
